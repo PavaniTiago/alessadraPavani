@@ -6,7 +6,7 @@ import { Header } from './components/Header'
 function App() {
   return (
     <BrowserRouter>
-      <div className='w-screen h-screen bg-[#1B191A]'>
+      <div className='w-screen h-screen bg-[#1B191A] overflow-x-hidden'>
         <Nav />
         <Header />
       </div>
