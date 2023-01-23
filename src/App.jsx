@@ -1,14 +1,16 @@
 import './App.css'
 import { BrowserRouter } from 'react-router-dom'
 import { Nav } from './components/Nav'
-import { Header } from './components/Header'
+import { Rotas } from '../src/Rotas'
 
 function App() {
   return (
     <BrowserRouter>
-      <div className='w-screen h-screen bg-[#1B191A] overflow-x-hidden scroll-smooth overflow-hidden'>
-        <Nav />
-        <Header />
+      <div className='w-screen h-screen overflow-x-hidden scroll-smooth overflow-hidden'>
+        <div>
+          <Nav />
+        </div>
+        <Rotas />
       </div>
     </BrowserRouter>
   )
