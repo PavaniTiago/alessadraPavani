@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 export const Nav = () => {
   return (
-    <nav className='flex flex-row w-full h-24 bg-[#1B191A] items-center pb-2 justify-around overflow-hidden font-roboto'>
+    <nav className='flex flex-row w-full h-24 bg-[#1B191A] items-center pb-2 justify-around overflow-hidden font-roboto drop-shadow-2xl'>
             <img className='w-[9rem] mt-2' src="/src/assets/logo.jpg" alt="" />
           <div className='flex gap-12 pt-2'>
             <Link
