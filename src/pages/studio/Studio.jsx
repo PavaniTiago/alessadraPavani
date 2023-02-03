@@ -4,7 +4,7 @@ import { Header } from './Header'
 
 export const Studio = () => {
   return (
-    <div className='w-full h-full bg-neutral-800'>
+    <div className='w-[100%] h-[100%]  bg-neutral-800'>
       <Header />
     </div>
   )
