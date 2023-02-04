@@ -4,6 +4,9 @@ import { FaFacebook, FaInstagram, FaYoutube } from 'react-icons/fa'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination } from "swiper";
 
+import Aos from 'aos'
+import "aos/dist/aos.css"
+import { useEffect } from 'react'
 
 import 'swiper/css';
 import "swiper/css/navigation";
@@ -11,25 +14,30 @@ import "swiper/css/pagination";
 import { Footer } from '../../components/Footer';
 
 export const Header = () => {
+
+  useEffect(() => {
+    Aos.init({ duration: 1500 });
+  }, [])
+
   return (
-    <div className='flex flex-col pt-28 '>
+    <div className='flex flex-col pt-28' >
       <div className='pl-24'>
-        <div className=''>
+        <div data-aos="fade-right">
           <img src="/src/assets/faceImg.jpg" className='w-[135px] h-[135px] rounded-full 3xl:w-[150px] 3xl:h-[150px]'/>
         </div>
       
-        <div className='flex flex-row'>
+        <div className='flex flex-row' data-aos="fade-right">
           
           <div className='flex-col mt-8 text-left font-inter w-[48rem]'>
-              <h1 className='text-6xl text-slate-200 3xl:text-7xl'>Proporcionado para trazer a sua verdadeira <span>Identidade</span>.</h1>
+              <h1 className='text-6xl text-slate-200 3xl:text-7xl'>Proporcionado para trazer a sua verdadeira <span>identidade</span>.</h1>
               <p className='mt-8 text-xl text-zinc-400 3xl:text-2xl'>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis inventore quia necessitatibus 
                 iste dolorem in delectus qui numquam repellendus voluptas quos, distinctio, fugiat unde aliquid, pariatur voluptates totam quibusdam vitae.
               </p>
               <div className='mt-8 flex flex-row gap-6 w-[45rem] 3xl:w-[47rem] justify-end'>
-                <a href="" className='hover:text-slate-200 text-3xl text-zinc-400 transition-colors'><FaFacebook /></a>
-                <a href="" className='hover:text-slate-200 text-3xl text-zinc-400 transition-colors'><FaInstagram/></a>
-                <a href="" className='hover:text-slate-200 text-3xl text-zinc-400 transition-colors'><FaYoutube/></a>
+                <a href="https://www.facebook.com/StudioAlessandraPavani" target="_blank" className='hover:text-slate-200 text-3xl text-zinc-400 transition-colors'><FaFacebook /></a>
+                <a href="https://www.instagram.com/studioalessandrapavani/" target="_blank" className='hover:text-slate-200 text-3xl text-zinc-400 transition-colors'><FaInstagram/></a>
+                <a href="https://www.youtube.com/@alessandrapavani5485" target="_blank" className='hover:text-slate-200 text-3xl text-zinc-400 transition-colors'><FaYoutube/></a>
               </div>
           </div>
 
@@ -56,9 +64,9 @@ export const Header = () => {
 
       </div>
 
-        <div className='flex flex-row-reverse pt-16 3xl:pt-24 pr-24 pb-28'>
+        <div className='flex flex-row-reverse pt-16 3xl:pt-24 pr-24 pb-28' data-aos="fade-left">
             <div className='flex-col mt-8 text-left font-inter w-[48rem]'>
-                <h1 className='text-6xl text-slate-200 3xl:text-7xl'>O lugar Designado para a sua <span>Estética</span> desejada.</h1>
+                <h1 className='text-6xl text-slate-200 3xl:text-7xl'>O lugar designado para a sua <span>estética</span> desejada.</h1>
                 <p className='mt-8 text-xl text-zinc-400 3xl:text-2xl'>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis inventore quia necessitatibus 
                   iste dolorem in delectus qui numquam repellendus voluptas quos, distinctio, fugiat unde aliquid, pariatur voluptates totam quibusdam vitae.

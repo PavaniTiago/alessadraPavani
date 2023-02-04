@@ -1,6 +1,14 @@
 import React from 'react'
+import Aos from 'aos'
+import "aos/dist/aos.css"
+import { useEffect } from 'react'
 
 export const LeftSection = ( props ) => {
+
+  useEffect(() => {
+    Aos.init({ duration: 1500 });
+  }, [])
+
   return (
     <div className='h-[27rem] w-[25rem] pt-8'>
         <div className='flex flex-col items-center gap-8 absolute w-[28rem] h-fit z-10'>

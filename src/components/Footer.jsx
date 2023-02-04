@@ -9,9 +9,9 @@ export const Footer = () => {
             <div className='text-zinc-400'>
               <p>Copyright © 2023 Alessandra Pavani</p>
             </div>
-            <a href="" className='hover:text-slate-200 text-3xl text-zinc-400 transition-colors'><FaFacebook /></a>
-            <a href="" className='hover:text-slate-200 text-3xl text-zinc-400 transition-colors'><FaInstagram/></a>
-            <a href="" className='hover:text-slate-200 text-3xl text-zinc-400 transition-colors'><FaYoutube/></a>
+            <a href="https://www.facebook.com/StudioAlessandraPavani" target="_blank" className='hover:text-slate-200 text-3xl text-zinc-400 transition-colors'><FaFacebook /></a>
+            <a href="https://www.instagram.com/studioalessandrapavani/" target="_blank" className='hover:text-slate-200 text-3xl text-zinc-400 transition-colors'><FaInstagram/></a>
+            <a href="https://www.youtube.com/@alessandrapavani5485" target="_blank" className='hover:text-slate-200 text-3xl text-zinc-400 transition-colors'><FaYoutube/></a>
           </div>
         </div>
   )

@@ -6,7 +6,7 @@ import { Rotas } from '../src/Rotas'
 function App() {
   return (
     <BrowserRouter>
-      <div className='w-[100%] h-[100%] overflow-x-hidden scroll-smooth '>
+      <div className='w-[100%] h-[100%] overflow-x-hidden scroll-smooth'>
         <div>
           <Nav />
         </div>

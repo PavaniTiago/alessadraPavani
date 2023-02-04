@@ -26,7 +26,7 @@ export const Nav = () => {
           </div>
             <a className='w-32 h-10 mt-2 rounded text-lg text-gray-500 border-solid border-2 border-gray-500 
             hover:text-gray-200 hover:border-gray-200 transition ease-in-out hover:scale-y-105 hover:scale-x-105 duration-200 flex items-center justify-center' 
-            href='https://www.instagram.com/studioalessandrapavani/' target="_blank"
+            href='https://linktr.ee/Alessandra_pavani' target="_blank"
             >Contate-nos</a>
     </nav>
   )

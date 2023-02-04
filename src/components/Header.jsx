@@ -1,12 +1,20 @@
 import React from 'react'
+import Aos from 'aos'
+import "aos/dist/aos.css"
+import { useEffect } from 'react'
 
 import { Link } from 'react-router-dom'
 
 export const Header = () => {
+
+  useEffect(() => {
+    Aos.init({ duration: 1500 });
+  }, [])
+
   return (
-    <header className='flex w-screen h-screen bg-neutral-900 relative font-roboto'>  
+    <header  className='flex w-screen h-screen bg-neutral-900 relative font-roboto'>  
             <img className='w-full brightness-50 blur-sm mt-1' src="/src/assets/bgImg.jpg" />
-            <div className='text-white absolute flex flex-col items-center h-[28rem] 3xl:h-[34rem] 3xl:w-[50rem] w-[40rem] justify-center ml-48 mt-[10rem]'>
+            <div data-aos="fade-left" className='text-white absolute flex flex-col items-center h-[28rem] 3xl:h-[34rem] 3xl:w-[50rem] w-[40rem] justify-center ml-48 mt-[10rem]'>
               <h2 className='text-7xl mb-8 font-inter 3xl:text-8xl'>Studio Alessandra Pavani</h2>    
               <p className='text-2xl'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non eius labore ut
               quibusdam culpa? Earum optio accusantium magni aliquid 

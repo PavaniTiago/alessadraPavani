@@ -3,9 +3,18 @@ import { RiScissorsFill } from 'react-icons/ri'
 import { MdWork } from 'react-icons/md'
 import { TbCertificate } from 'react-icons/tb'
 
+import Aos from 'aos'
+import "aos/dist/aos.css"
+import { useEffect } from 'react'
+
 export const Header = () => {
+
+    useEffect(() => {
+        Aos.init({ duration: 1500 });
+      }, [])
+
   return (
-    <div className='flex flex-col font-inter p-24 3xl:pt-40 3xl:p-28'>
+    <div className='flex flex-col font-inter p-24 3xl:pt-40 3xl:p-28' data-aos="fade-right">
         
         <div className='flex flex-col w-[40rem] h-[30rem] justify-center 3xl:w-[50rem] 3xl:h-[35rem]'>
             <h2 className='text-white text-5xl pb-4 3xl:text-6xl'>Quem é Alessandra Pavani?</h2>
