@@ -21,7 +21,7 @@ export const Header = () => {
 
   return (
     <div className='flex flex-col pt-28' >
-      <div className='pl-24'>
+      <div className='pl-24 '>
         <div data-aos="fade-right">
           <img src="/src/assets/faceImg.jpg" className='w-[135px] h-[135px] rounded-full 3xl:w-[150px] 3xl:h-[150px]'/>
         </div>
@@ -64,7 +64,7 @@ export const Header = () => {
 
       </div>
 
-        <div className='flex flex-row-reverse pt-16 3xl:pt-24 pr-24 pb-28' data-aos="fade-left">
+        <div className='flex flex-row-reverse pt-16 3xl:pt-32 pr-24 pb-28 ' data-aos="fade-left">
             <div className='flex-col mt-8 text-left font-inter w-[48rem]'>
                 <h1 className='text-6xl text-slate-200 3xl:text-7xl'>O lugar designado para a sua <span>estética</span> desejada.</h1>
                 <p className='mt-8 text-xl text-zinc-400 3xl:text-2xl'>
@@ -74,7 +74,7 @@ export const Header = () => {
                 
             </div>
 
-              <div className='flex mt-8 3xl:mr-60 xl:mr-32'>
+              <div className='flex mt-8 3xl:mr-80 xl:mr-32'>
                 <Swiper
                 modules={[Navigation, Pagination]}
                 spaceBetween={50}

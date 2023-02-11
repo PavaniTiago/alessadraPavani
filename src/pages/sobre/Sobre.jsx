@@ -17,7 +17,7 @@ export const Sobre = () => {
   }, [])
 
   return (
-    <div className='w-[100%] h-[100%]  bg-neutral-800'>
+    <div className='w-[100%] h-[100%] bg-neutral-800'>
 
       <div className='flex flex-row items-center'>
         <div className='flex w-fit'>

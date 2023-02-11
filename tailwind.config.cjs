@@ -13,7 +13,8 @@ module.exports = {
         'custom': 'inset 28px 0px 132px 0px rgba(0,0,0,0.95)'
       },
       screens:{
-        '3xl': '1920px'
+        '3xl': '1920px',
+        'xsm': '360px'
       }
     },
   },
