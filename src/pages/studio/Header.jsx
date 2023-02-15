@@ -20,17 +20,17 @@ export const Header = () => {
   }, [])
 
   return (
-    <div className='flex flex-col pt-28' >
-      <div className='pl-24 '>
-        <div data-aos="fade-right">
+    <div className='flex flex-col md:pt-28 xsm:pt-10' >
+      <div className='md:pl-24'>
+        <div data-aos="fade-right" className='xsm:hidden md:block'>
           <img src="/src/assets/faceImg.jpg" className='w-[135px] h-[135px] rounded-full 3xl:w-[150px] 3xl:h-[150px]'/>
         </div>
       
-        <div className='flex flex-row' data-aos="fade-right">
+        <div className='flex md:flex-row flex-col' data-aos="fade-right">
           
-          <div className='flex-col mt-8 text-left font-inter w-[48rem]'>
-              <h1 className='text-6xl text-slate-200 3xl:text-7xl'>Proporcionado para trazer a sua verdadeira <span>identidade</span>.</h1>
-              <p className='mt-8 text-xl text-zinc-400 3xl:text-2xl'>
+          <div className='flex-col mt-8 md:text-left font-inter md:w-[48rem] w-full'>
+              <h1 className='md:text-6xl xsm:text-center md:text-left text-3xl text-slate-200 xsm:px-8 md:px-0 3xl:text-7xl'>Proporcionado para trazer a sua verdadeira <span>identidade</span>.</h1>
+              <p className='xsm:mt-12 md:mt-8 text-xl xsm:text-center md:text-left text-zinc-400 3xl:text-2xl xsm:px-2 md:px-0'>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis inventore quia necessitatibus 
                 iste dolorem in delectus qui numquam repellendus voluptas quos, distinctio, fugiat unde aliquid, pariatur voluptates totam quibusdam vitae.
               </p>
@@ -41,7 +41,7 @@ export const Header = () => {
               </div>
           </div>
 
-            <div className='flex mt-4 3xl:ml-60 xl:ml-16'>
+            <div className='flex mt-4 3xl:ml-60 md:ml-16 xsm:px-4'>
               <Swiper
               modules={[Navigation, Pagination]}
               spaceBetween={50}
@@ -64,17 +64,17 @@ export const Header = () => {
 
       </div>
 
-        <div className='flex flex-row-reverse pt-16 3xl:pt-32 pr-24 pb-28 ' data-aos="fade-left">
-            <div className='flex-col mt-8 text-left font-inter w-[48rem]'>
-                <h1 className='text-6xl text-slate-200 3xl:text-7xl'>O lugar designado para a sua <span>estética</span> desejada.</h1>
-                <p className='mt-8 text-xl text-zinc-400 3xl:text-2xl'>
+        <div className='flex md:flex-row-reverse flex-col md:pt-28 xsm:pt-16 3xl:pt-32 md:pr-24 md:pb-28 pb-14' data-aos="fade-left">
+            <div className='flex-col mt-8 text-left font-inter md:w-[48rem] w-full md:text-6xl xsm:text-center md:text-left text-3xl'>
+                <h1 className='md:text-6xl xsm:text-center md:text-left text-3xl text-slate-200 xsm:px-8 md:px-0 3xl:text-7xl'>O lugar designado para a sua <span>estética</span> desejada.</h1>
+                <p className='xsm:mt-12 md:mt-8 text-xl xsm:text-center md:text-left text-zinc-400 3xl:text-2xl xsm:px-2 md:px-0'>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis inventore quia necessitatibus 
-                  iste dolorem in delectus qui numquam repellendus voluptas quos, distinctio, fugiat unde aliquid, pariatur voluptates totam quibusdam vitae.
+                  iste dolorem in delectus qui numquam repellendus voluptas quos, numquam repellendus voluptas quos.
                 </p>
                 
             </div>
 
-              <div className='flex mt-8 3xl:mr-80 xl:mr-32'>
+              <div className='flex mt-8 3xl:mr-80 md:mr-32 xsm:px-4'>
                 <Swiper
                 modules={[Navigation, Pagination]}
                 spaceBetween={50}

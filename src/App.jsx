@@ -8,7 +8,7 @@ function App() {
     <BrowserRouter>
       <div className='w-[100%] h-[100%] flex flex-col-reverse  overflow-y-hidden overflow-x-hidden scroll-smooth '>
           <Rotas/>
-          <div>
+          <div className=''>
             <Nav />
           </div>
           

@@ -19,17 +19,17 @@ export const Sobre = () => {
   return (
     <div className='w-[100%] h-[100%] bg-neutral-800'>
 
-      <div className='flex flex-row items-center'>
+      <div className='flex md:flex-row xsm:flex-col items-center'>
         <div className='flex w-fit'>
           <Header />
         </div>
 
-        <div className='flex w-full justify-center' data-aos="fade-left">
+        <div className='flex md:w-full justify-center' data-aos="fade-left">
             <LeftSection img="/src/assets/headerImg.jpg"/>
         </div>
       </div>
 
-      <div className='flex flex-row-reverse items-center'>
+      <div className='flex md:flex-row-reverse xsm:flex-col items-center'>
         <div className='flex w-fit'>
           <BottomSection />
         </div>

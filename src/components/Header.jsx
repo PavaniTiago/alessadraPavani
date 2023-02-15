@@ -13,10 +13,10 @@ export const Header = () => {
 
   return (
     <header className='flex w-screen h-screen bg-neutral-900 font-roboto justify-center md:justify-start' >  
-            <img className='w-full brightness-50 blur-sm mt-1 ' src="/src/assets/bgImg.jpg" />
-            <div data-aos="fade-left" className='text-white absolute flex flex-col xsm:h-fit md:gap-6  xsm:w-[25rem] h-[28rem] 3xl:h-[34rem] 3xl:w-[50rem] w-[40rem] md:ml-48 mt-[15rem]'>
-              <h2 className='text-7xl md:text-start xsm:text-5xl mb-8 font-inter 3xl:text-8xl xsm:text-center'>Studio Alessandra Pavani</h2>    
-              <p className='text-2xl  xsm:text-xl xsm:text-center md:text-start'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non eius labore ut
+            <img className='w-full brightness-50 blur-sm mt-1 xsm:hidden md:block' src="/src/assets/bgImg.jpg" />
+            <div data-aos="fade-left" className='text-white absolute flex flex-col xsm:h-fit md:gap-6 xsm:px-4 md:px-0 xsm:w-[24rem] h-[28rem] 3xl:h-[34rem] 3xl:w-[50rem] xl:w-[40rem] md:ml-48 md:mt-[10rem] 3xl:mt-[16rem] xsm:mt-[10rem]'>
+              <h2 className='text-7xl md:text-start xsm:text-4xl md:text-7xl mb-8 font-inter 3xl:text-8xl xsm:text-center'>Studio Alessandra Pavani</h2>    
+              <p className='md:text-2xl  xsm:text-xl xsm:text-center md:text-start'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non eius labore ut
               quibusdam culpa? Earum optio accusantium magni aliquid 
               laboriosam saepe iste dicta aperiam, minus quia culpa tempore fuga nesciunt?
               </p>
