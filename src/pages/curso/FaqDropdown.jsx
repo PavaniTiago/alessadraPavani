@@ -17,7 +17,7 @@ function FaqDropdown({ question, answer }) {
       </div>
       {isOpen && (
         <div className="px-4 py-2">
-          <p className="text-gray-700">{answer}</p>
+          <p className="text-gray-700 text-md">{answer}</p>
         </div>
       )}
     </div>
