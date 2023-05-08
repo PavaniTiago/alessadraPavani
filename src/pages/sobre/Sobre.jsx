@@ -9,6 +9,9 @@ import Aos from 'aos'
 import "aos/dist/aos.css"
 import { useEffect } from 'react'
 
+import img17 from '/src/assets/img17.jpg'
+import img9 from '/src/assets/img9.jpg'
+
 export const Sobre = () => {
 
   useEffect(() => {
@@ -24,7 +27,7 @@ export const Sobre = () => {
         </div>
 
         <div className='flex lg:w-full justify-center' data-aos="fade-left">
-            <LeftSection img="/src/assets/img17.jpg" text="Impactando vidas através do meu método!!" alt='foto de alessandra pavani'/>
+            <LeftSection img={img17} text="Impactando vidas através do meu método!!" alt='foto de alessandra pavani'/>
         </div>
       </div>
 
@@ -34,7 +37,7 @@ export const Sobre = () => {
         </div>
 
         <div className='flex lg:w-full justify-center' data-aos="fade-right">
-          <LeftSection img="/src/assets/img9.jpg" text="Seu cabelo é sua coroa ele merece ser tratado como uma realeza!" alt='foto do studio alessandra pavani'/>
+          <LeftSection img={img9} text="Seu cabelo é sua coroa ele merece ser tratado como uma realeza!" alt='foto do studio alessandra pavani'/>
         </div>
       </div>
     <Footer />

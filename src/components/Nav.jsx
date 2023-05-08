@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import { FiMenu } from 'react-icons/fi'
 import { MdClose } from 'react-icons/md'
 
+import logo from '../assets/logo.jpg'
 
 export const Nav = () => {
 
@@ -17,7 +18,7 @@ export const Nav = () => {
 
   return (
     <nav className='flex flex-row w-full md:h-32 h-20 bg-[#1B191A] items-center pb-2 justify-around font-roboto drop-shadow-2xl '>
-            <img className='md:w-[8rem] w-[5rem] mt-2' src="/src/assets/logo.jpg" alt="" />
+            <img className='md:w-[8rem] w-[5rem] mt-2' src={logo} alt="" />
           <ul className={`md:flex md:items-center md:mt-2 md:pb-0 z-[-1] shadow-2xl md:static absolute bg-[#1B191A] md:z-auto text-center w-full md:w-auto md:pl-0 transition-all duration-500 ease-in ${open ? 'top-14':'top-[-490px]'}`}>
             {
           Links.map((link)=>(

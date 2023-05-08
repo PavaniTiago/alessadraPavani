@@ -6,13 +6,9 @@ import { Rotas } from '../src/Rotas'
 function App() {
   return (
     <BrowserRouter>
-      <div className='w-[100%] h-[100%] flex flex-col-reverse  overflow-y-hidden overflow-x-hidden scroll-smooth '>
+      <div className='w-full min-h-screen flex flex-col-reverse overflow-hidden'>
           <Rotas/>
-          <div className=''>
-            <Nav />
-          </div>
-          
-            
+          <Nav />
       </div>
     </BrowserRouter>
   )

@@ -5,7 +5,7 @@ import { Nav } from '../../components/Nav'
 
 export const Home = () => {
   return (
-    <div className='w-[100%] h-[100%]  bg-neutral-800'>
+    <div className='w-full min-h-screen  bg-neutral-800 overflow-hidden'>
     <Header />
   </div>
   )

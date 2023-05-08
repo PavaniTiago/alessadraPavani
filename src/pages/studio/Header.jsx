@@ -13,6 +13,20 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import { Footer } from '../../components/Footer';
 
+import img19 from '/src/assets/img19.jpg'
+import img18 from '/src/assets/img18.jpg'
+import img14 from '/src/assets/img14.jpg'
+import img13 from '/src/assets/img13.jpg'
+import img20 from '/src/assets/img20.jpg'
+import img15 from '/src/assets/img15.jpg'
+import img6 from '/src/assets/img6.jpg'
+import img7 from '/src/assets/img7.jpg'
+import img16 from '/src/assets/img16.jpg'
+import img8 from '/src/assets/img8.jpg'
+import img9 from '/src/assets/img9.jpg'
+import img11 from '/src/assets/img11.jpg'
+import bgImg from '/src/assets/bgImg.jpg'
+
 export const Header = () => {
 
   useEffect(() => {
@@ -23,7 +37,7 @@ export const Header = () => {
     <div className='flex flex-col md:pt-20 pt-10' >
       <div className='lg:pl-24 md:px-12'>
         <div data-aos="fade-right" className='hidden lg:block'>
-          <img src="/src/assets/img19.jpg" className='w-[135px] h-[135px] rounded-full 3xl:w-[150px] 3xl:h-[150px] object-cover object-top' alt='foto da alessandra pavani'/>
+          <img src={img19} className='w-[135px] h-[135px] rounded-full 3xl:w-[150px] 3xl:h-[150px] object-cover object-top' alt='foto da alessandra pavani'/>
         </div>
       
         <div className='flex lg:flex-row flex-col' data-aos="fade-right">
@@ -52,14 +66,14 @@ export const Header = () => {
               loop={true}
               className='w-[30rem] 3xl:w-[44rem]'
               >
-                <SwiperSlide><img src="/src/assets/img18.jpg" alt="foto de cabelos cacheados" className='rounded-lg'/></SwiperSlide>
-                <SwiperSlide><img src="/src/assets/img14.jpg" alt="foto de cabelos cacheados" className='rounded-lg' /></SwiperSlide>
-                <SwiperSlide><img src="/src/assets/img13.jpg" alt="foto de cabelos cacheados" className='rounded-lg' /></SwiperSlide>
-                <SwiperSlide><img src="/src/assets/img20.jpg" alt="foto de cabelos cacheados" className='rounded-lg' /></SwiperSlide>
-                <SwiperSlide><img src="/src/assets/img15.jpg" alt="foto de cabelos cacheados" className='rounded-lg' /></SwiperSlide>
-                <SwiperSlide><img src="/src/assets/img6.jpg" alt="foto de cabelos cacheados" className='rounded-lg' /></SwiperSlide>
-                <SwiperSlide><img src="/src/assets/img7.jpg" alt="foto de cabelos cacheados" className='rounded-lg' /></SwiperSlide>
-                <SwiperSlide><img src="/src/assets/img16.jpg" alt="foto de cabelos cacheados" className='rounded-lg' /></SwiperSlide>
+                <SwiperSlide><img src={img18} alt="foto de cabelos cacheados" className='rounded-lg'/></SwiperSlide>
+                <SwiperSlide><img src={img14} alt="foto de cabelos cacheados" className='rounded-lg' /></SwiperSlide>
+                <SwiperSlide><img src={img13} alt="foto de cabelos cacheados" className='rounded-lg' /></SwiperSlide>
+                <SwiperSlide><img src={img20} alt="foto de cabelos cacheados" className='rounded-lg' /></SwiperSlide>
+                <SwiperSlide><img src={img15} alt="foto de cabelos cacheados" className='rounded-lg' /></SwiperSlide>
+                <SwiperSlide><img src={img6} alt="foto de cabelos cacheados" className='rounded-lg' /></SwiperSlide>
+                <SwiperSlide><img src={img7} alt="foto de cabelos cacheados" className='rounded-lg' /></SwiperSlide>
+                <SwiperSlide><img src={img16} alt="foto de cabelos cacheados" className='rounded-lg' /></SwiperSlide>
               </Swiper>
             </div>
         </div>
@@ -88,10 +102,10 @@ export const Header = () => {
                 loop={true}
                 className='w-[24rem] 3xl:w-[36rem]'
               >
-                  <SwiperSlide><img src="/src/assets/bgImg.jpg" alt="foto do studio alessandra pavani" className='rounded-lg' /></SwiperSlide>
-                  <SwiperSlide><img src="/src/assets/img8.jpg" alt="foto do studio alessandra pavani" className='rounded-lg' /></SwiperSlide>
-                  <SwiperSlide><img src="/src/assets/img9.jpg" alt="foto do studio alessandra pavani" className='rounded-lg' /></SwiperSlide>
-                  <SwiperSlide><img src="/src/assets/img11.jpg" alt="foto do studio alessandra pavani" className='rounded-lg' /></SwiperSlide>
+                  <SwiperSlide><img src={bgImg} alt="foto do studio alessandra pavani" className='rounded-lg' /></SwiperSlide>
+                  <SwiperSlide><img src={img8} alt="foto do studio alessandra pavani" className='rounded-lg' /></SwiperSlide>
+                  <SwiperSlide><img src={img9} alt="foto do studio alessandra pavani" className='rounded-lg' /></SwiperSlide>
+                  <SwiperSlide><img src={img11} alt="foto do studio alessandra pavani" className='rounded-lg' /></SwiperSlide>
                 </Swiper>
               </div>
         </div>
