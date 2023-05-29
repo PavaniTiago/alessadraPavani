@@ -7,7 +7,7 @@ export default function Modulos({ title, img, children, text }) {
     return (
         <div className="bg-black flex flex-col overflow-hidden rounded-2xl shadow-xl">
             <div className="relative flex justify-center items-center">
-                <img src={img} alt="foto de alessandra pavani" className="h-[22rem] md:w-[17.5rem] brightness-75"/>
+                <img src={img} alt="foto de alessandra pavani" className="h-[22rem] w-[17.5rem] brightness-75"/>
                 <div className="from-black via-transparent to-transparent bg-gradient-to-t bottom-0 left-0 right-0 w-full h-[40rem]  absolute"></div>
             <div className="absolute mt-48 flex flex-col items-center justify-center p-4">
                 <h2 className="text-2xl text-center text-neutral-900 tracking-widest mb-2 w-32 h-8 bg-gradient-to-r from-orange-300 to-yellow-700/90 flex items-center justify-center">{text}</h2>
