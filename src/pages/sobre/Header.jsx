@@ -14,7 +14,7 @@ export const Header = () => {
     }, [])
 
   return (
-    <div className='flex flex-col font-inter md:p-32 lg:p-24 pt-20 3xl:pt-40 3xl:p-28' data-aos="fade-right">
+    <div className='flex flex-col font-inter md:p-32 lg:p-24 mt-20 3xl:mt-28 3xl:p-28' data-aos="fade-right">
         
         <div className='flex flex-col md:w-[42rem] md:h-[30rem] h-fit w-[21rem] justify-center 3xl:w-[51rem] 3xl:h-[35rem]'>
             <h2 className='text-white text-center md:text-left md:text-5xl text-3xl pb-4 3xl:text-6xl font-semibold'>Quem é Alessandra Pavani?</h2>

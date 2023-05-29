@@ -5,7 +5,7 @@ function FaqDropdown({ question, answer }) {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="bg-white rounded-lg shadow-md mb-4">
+    <div className="bg-white rounded-lg shadow-md mb-4 md:w-[32rem]">
       <div
         className="flex justify-between items-center px-4 py-2 cursor-pointer"
         onClick={() => setIsOpen(!isOpen)}

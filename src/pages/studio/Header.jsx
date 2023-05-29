@@ -37,14 +37,14 @@ export const Header = () => {
     <div className='flex flex-col md:pt-20 pt-10' >
       <div className='lg:pl-24 md:px-12'>
         <div data-aos="fade-right" className='hidden lg:block'>
-          <img src={img19} className='w-[135px] h-[135px] rounded-full 3xl:w-[150px] 3xl:h-[150px] object-cover object-top' alt='foto da alessandra pavani'/>
+          <img src={img19} className='w-[170px] h-[170px] rounded-full 3xl:w-[200px] 3xl:h-[200px] object-cover object-top' alt='foto da alessandra pavani'/>
         </div>
       
         <div className='flex lg:flex-row flex-col' data-aos="fade-right">
           
           <div className='flex-col mt-8  md:text-left font-inter lg:w-[45rem] w-full'>
-              <h1 className='md:text-6xl xsm:text-center lg:text-left font-semibold text-3xl text-slate-200 xsm:px-8 md:px-0 3xl:text-6xl'>Proporcionado para trazer a sua verdadeira <span>identidade</span>.</h1>
-              <p className='xsm:mt-12 md:mt-14 text-xl md:text-2xl text-center lg:text-left text-zinc-400 3xl:text-2xl px-12 lg:px-0'>
+              <h1 className='md:text-6xl sm:text-center lg:text-left font-semibold text-3xl text-slate-200 sm:px-8 md:px-0 3xl:text-6xl'>Proporcionado para trazer a sua verdadeira <span>identidade</span>.</h1>
+              <p className='sm:mt-12 md:mt-14 text-xl md:text-2xl text-center lg:text-left text-zinc-400 3xl:text-2xl px-12 lg:px-0'>
               Somos o primeiro Studio Especialista em cabelos naturais em Salto SP dedicado trazer pra você a sua melhor versão! 
               <br />
               Além dos serviços temos o prazer de dividir informações de auto cuidados, através de uma consultoria personalizada trazendo excelente resultados no seu dia a dia com técnicas repassadas durante o atendimento.
@@ -56,7 +56,7 @@ export const Header = () => {
               </div>
           </div>
 
-            <div className='flex mt-4 md:mt-16 3xl:ml-60 md:ml-16 xsm:px-8'>
+            <div className='flex mt-4 md:mt-16 3xl:ml-60 md:ml-16 sm:px-8'>
               <Swiper
               modules={[Navigation, Pagination]}
               spaceBetween={50}
@@ -80,10 +80,10 @@ export const Header = () => {
 
       </div>
 
-        <div className='flex lg:flex-row-reverse flex-col md:pt-28 xsm:pt-16 3xl:pt-32 lg:pr-24 md:pb-28 pb-20' data-aos="fade-left">
+        <div className='flex lg:flex-row-reverse flex-col md:pt-28 sm:pt-16 3xl:pt-32 lg:pr-24 md:pb-28 pb-20' data-aos="fade-left">
             <div className='flex-col mt-8  md:text-left font-inter lg:w-[45rem] w-full'>
-                <h1 className='md:text-6xl text-center lg:text-left text-3xl text-slate-200 font-semibold xsm:px-8 md:px-0 3xl:text-6xl'>O lugar designado para a sua <span>estética</span> desejada.</h1>
-                <p className='xsm:mt-12 md:mt-14 text-xl md:text-2xl text-center lg:text-left text-zinc-400 3xl:text-2xl px-12 lg:px-0'>
+                <h1 className='md:text-6xl text-center lg:text-left text-3xl text-slate-200 font-semibold sm:px-8 md:px-0 3xl:text-6xl'>O lugar designado para a sua <span>estética</span> desejada.</h1>
+                <p className='sm:mt-12 md:mt-14 text-xl md:text-2xl text-center lg:text-left text-zinc-400 3xl:text-2xl px-12 lg:px-0'>
                 Somos o primeiro Studio em Salto SP 
                 Aonde você encontra atendimento personalizado com profissionais treinados e capacitados com o M.A.P 
                 <br />
@@ -92,7 +92,7 @@ export const Header = () => {
                 
             </div>
 
-              <div className='flex mt-10 md:mt-12 3xl:mr-80 lg:mr-32 xsm:px-8'>
+              <div className='flex mt-10 md:mt-12 3xl:mr-80 lg:mr-32 sm:px-8'>
                 <Swiper
                 modules={[Navigation, Pagination]}
                 spaceBetween={50}
