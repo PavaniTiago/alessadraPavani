@@ -37,7 +37,7 @@ export const Sobre = () => {
         </div>
 
         <div className='flex lg:w-full justify-center' data-aos="fade-right">
-          <LeftSection img={img9} text="Seu cabelo é sua coroa ele merece ser tratado como uma realeza!" alt='foto do studio alessandra pavani'/>
+          <LeftSection img={img9} text="Somos uma equipe proporcionando sua melhor versão" alt='foto do studio alessandra pavani'/>
         </div>
       </div>
     <Footer />

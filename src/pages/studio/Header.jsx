@@ -13,8 +13,7 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import { Footer } from '../../components/Footer';
 
-import img19 from '/src/assets/img19.jpg'
-import img18 from '/src/assets/img18.jpg'
+import img33 from '/src/assets/img33.jpg'
 import img14 from '/src/assets/img14.jpg'
 import img13 from '/src/assets/img13.jpg'
 import img20 from '/src/assets/img20.jpg'
@@ -37,7 +36,7 @@ export const Header = () => {
     <div className='flex flex-col md:pt-20 pt-10' >
       <div className='lg:pl-24 md:px-12'>
         <div data-aos="fade-right" className='hidden lg:block'>
-          <img src={img19} className='w-[170px] h-[170px] rounded-full 3xl:w-[200px] 3xl:h-[200px] object-cover object-top' alt='foto da alessandra pavani'/>
+          <img src={img33} className='w-[170px] h-[170px] rounded-full 3xl:w-[200px] 3xl:h-[200px] object-cover object-top' alt='foto da alessandra pavani'/>
         </div>
       
         <div className='flex lg:flex-row flex-col' data-aos="fade-right">
@@ -66,7 +65,6 @@ export const Header = () => {
               loop={true}
               className='w-[30rem] 3xl:w-[44rem]'
               >
-                <SwiperSlide><img src={img18} alt="foto de cabelos cacheados" className='rounded-lg'/></SwiperSlide>
                 <SwiperSlide><img src={img14} alt="foto de cabelos cacheados" className='rounded-lg' /></SwiperSlide>
                 <SwiperSlide><img src={img13} alt="foto de cabelos cacheados" className='rounded-lg' /></SwiperSlide>
                 <SwiperSlide><img src={img20} alt="foto de cabelos cacheados" className='rounded-lg' /></SwiperSlide>

@@ -133,13 +133,13 @@ export const Main = () => {
         <h2 className='text-2xl font-bold text-slate-100'>Além de tudo isso...</h2>
       </div>
       <div className='bg-gradient-to-t from-[#130e0b] to-[#2d1a10] w-full'>
-        <div data-aos="fade-top" data-aos-duration="650" className='flex flex-col justify-center items-center pt-10 pb-16'>
-          <h3 className='text-3xl text-slate-100 uppercase font-bold mb-2'>Bônus</h3>
-          <p className='text-xl font-inter text-slate-200 mb-8 text-center'>Acesso excluvivo a mentorias ao vivo garantindo sua vaga!</p>
+        <div data-aos="fade-top" data-aos-duration="650" className='flex flex-col justify-center items-center pt-10 pb-16 gap-8'>
+          <h3 className='text-3xl text-slate-100 uppercase -mb-4 font-bold'>Bônus</h3>
+          <p className='text-xl font-inter text-slate-200 text-center'>Acesso excluvivo a mentorias ao vivo garantindo sua vaga!</p>
           <Bonus title='Intrevistando a Cliente' img={img26} text='BÔNUS'>
             <p className='font-bold'>- Aula 1. <span className='font-normal'>Avaliando o Cliente e Transição Capilar;</span></p>
           </Bonus>
-          <div className="hover:bg-neutral-900 hover:text-slate-50 mt-4 md:mt-10 mx-auto md:w-[42rem] flex justify-center px-16 py-3 bg-slate-50 font-semibold text-xl md:text-2xl rounded transition-colors cursor-pointer shadow-lg">
+          <div className="hover:bg-neutral-900 hover:text-slate-50 mx-auto md:w-[42rem] flex justify-center px-16 py-3 bg-slate-50 font-semibold text-xl md:text-2xl rounded transition-colors cursor-pointer shadow-lg">
             <button className='transition-all ease-in-out duration-300'><a href="#">Inscreva-se Agora</a></button>
           </div>
         </div>
@@ -218,7 +218,7 @@ export const Main = () => {
           <div className='relative w-full'>
             <img src={bgResponsive} alt="" className='brightness-[0.2] h-[48rem] w-full object-cover object-top' />
           </div>
-          <div className='absolute md:left-[24rem]'>
+          <div className='absolute md:left-[16rem]'>
             <Prices data-aos="fade-right" data-aos-duration="650" img={meiosPagamento} />
           </div>
         </div>
